@@ -1,0 +1,22 @@
+print("*********************************************************************")
+txt = "SUPER MARKET BILLING"
+p=txt.center(50)
+print(p)
+print("*********************************************************************")
+Tomato=0.06
+Potato=0.08
+Cherry=0.09
+Apple=0.10
+Strawberry=0.04
+A=int(input("Tomato:"))
+B=int(input("Potato:"))
+C=int(input("Cherry:"))
+D=int(input("Apple:"))
+E=int(input("Strawberry:"))
+print("Total COST:",Tomato*A,"$")
+print("Total COST:",Potato*B,"$")
+print("Total COST:",Cherry*C,"$")
+print("Total COST:",Apple*D,"$")
+print("Total COST:",Strawberry*E,"$")
+Total=Tomato*A+Potato*B+Cherry*C+Apple*D+Strawberry*E
+print("Total Amount:",Total,)
